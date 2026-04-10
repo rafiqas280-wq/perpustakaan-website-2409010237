@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Perpustakaan Digital Pro</title>
+<title>DigiLib UMSU - Perpustakaan Digital</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,14 +11,16 @@
 
 <!-- HEADER -->
 <header>
-    <h1>📚 Perpustakaan Digital Pro</h1>
-    <p>Smart Digital Library System</p>
+    <h1>📚 DigiLib UMSU</h1>
+    <p>Universitas Muhammadiyah Sumatera Utara</p>
+    <p>Layanan Digital Perpustakaan Modern</p>
 
     <!-- NAVBAR -->
     <nav>
         <a href="#">Beranda</a>
-        <a href="#buku">Buku</a>
+        <a href="#buku">Layanan</a>
         <a href="#formPinjam">Peminjaman</a>
+        <a href="#kontak">Kontak</a>
     </nav>
 </header>
 
@@ -43,10 +45,8 @@
         <div class="form">
             <input type="text" id="judul" placeholder="Judul Buku">
             <input type="text" id="kategori" placeholder="Kategori">
-
             <input type="text" id="gambar" placeholder="Nama file gambar (contoh: clean-code.jpg)">
             <input type="text" id="link" placeholder="Link buku (https://...)">
-
             <button class="add" id="btnTambah">Tambah</button>
         </div>
 
@@ -54,7 +54,7 @@
 
     </section>
 
-    <!-- SECTION FORM PEMINJAMAN -->
+    <!-- FORM PEMINJAMAN -->
     <section id="formPinjam">
 
         <h2>Form Peminjaman Buku</h2>
@@ -88,17 +88,25 @@
 
     </section>
 
-   
-    </div>
+
+    <section id="kontak">
+
+        <h2>Kontak & Informasi</h2>
+
+        <p>📧 perpus@umsu.ac.id</p>
+        <p>📍 Jl. Kapten Mukhtar Basri, Medan</p>
+        <p>🕐 Sen–Jum: 08.00–16.00</p>
+
+    </section>
 
 </main>
 
 <!-- FOOTER -->
 <footer>
-    <p>Perpustakaan Digital | UMSU</p>
+    <p>© 2026 DigiLib UMSU | Universitas Muhammadiyah Sumatera Utara</p>
 </footer>
 
-<!-- TOGGLE -->
+<!-- TOGGLE DARK MODE -->
 <button id="toggleMode">🌙</button>
 
 <script src="script.js"></script>
